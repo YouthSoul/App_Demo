@@ -1,0 +1,1057 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>加载机制</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/加载机制/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/加载机制/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (组 合) -->
+      <div id="u872" class="ax_default" data-left="936" data-top="294" data-width="426" data-height="118">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u873" class="ax_default box_3">
+          <div id="u873_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u874" class="ax_default _三级标题">
+          <div id="u874_div" class=""></div>
+          <div id="u874_text" class="text ">
+            <p><span>自动加载机制</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u875" class="ax_default _三级标题">
+          <div id="u875_div" class=""></div>
+          <div id="u875_text" class="text ">
+            <p><span>1：当用户重新访问页面，自动加载数据</span></p><p><span>2：当无网络状态变为有网络状态时，自动加载数据</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u876" class="ax_default box_3">
+        <div id="u876_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u877" class="ax_default box_3">
+        <div id="u877_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u878" class="ax_default box_3">
+        <div id="u878_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u879" class="ax_default box_3">
+        <div id="u879_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u880" class="ax_default box_1">
+        <div id="u880_div" class=""></div>
+      </div>
+
+      <!-- iPhone外框 (矩形) -->
+      <div id="u881" class="ax_default box_1" data-label="iPhone外框">
+        <div id="u881_div" class=""></div>
+      </div>
+
+      <!-- 短视频封面4 (占位符) -->
+      <div id="u882" class="ax_default placeholder" data-label="短视频封面4">
+        <img id="u882_img" class="img " src="images/交互演示原型（可点击部分按钮）/短视频封面4_u3.png"/>
+      </div>
+
+      <!-- 短视频封面3 (占位符) -->
+      <div id="u883" class="ax_default placeholder" data-label="短视频封面3">
+        <img id="u883_img" class="img " src="images/交互演示原型（可点击部分按钮）/短视频封面4_u3.png"/>
+      </div>
+
+      <!-- 状态栏 (矩形) -->
+      <div id="u884" class="ax_default box_1" data-label="状态栏">
+        <div id="u884_div" class=""></div>
+      </div>
+
+      <!-- 顶部导航栏 (矩形) -->
+      <div id="u885" class="ax_default box_1" data-label="顶部导航栏">
+        <div id="u885_div" class=""></div>
+      </div>
+
+      <!-- 短视频封面 (占位符) -->
+      <div id="u886" class="ax_default placeholder" data-label="短视频封面">
+        <img id="u886_img" class="img " src="images/交互演示原型（可点击部分按钮）/短视频封面_u10.png"/>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u887" class="ax_default" data-left="121" data-top="412" data-width="170" data-height="115">
+
+        <!-- 发布者头像 (椭圆形) -->
+        <div id="u888" class="ax_default ellipse" data-label="发布者头像">
+          <img id="u888_img" class="img " src="images/交互演示原型（可点击部分按钮）/发布者头像_u11.png"/>
+        </div>
+
+        <!-- 发布者昵称 (矩形) -->
+        <div id="u889" class="ax_default label" data-label="发布者昵称">
+          <div id="u889_div" class=""></div>
+          <div id="u889_text" class="text ">
+            <p><span>小黄喵</span></p>
+          </div>
+        </div>
+
+        <!-- 视频描述 (矩形) -->
+        <div id="u890" class="ax_default label" data-label="视频描述">
+          <div id="u890_div" class=""></div>
+          <div id="u890_text" class="text ">
+            <p><span>今天宝宝说我们要做Cool Cool的仔~ 天气晴朗适合摆拍，但是今天阿P说她没...</span></p>
+          </div>
+        </div>
+
+        <!-- 发布时间 (矩形) -->
+        <div id="u891" class="ax_default label" data-label="发布时间">
+          <div id="u891_div" class=""></div>
+          <div id="u891_text" class="text ">
+            <p><span>50分钟前</span></p>
+          </div>
+        </div>
+
+        <!-- 所在地点 (矩形) -->
+        <div id="u892" class="ax_default label" data-label="所在地点">
+          <div id="u892_div" class=""></div>
+          <div id="u892_text" class="text ">
+            <p><span>深业上城</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 短视频封面2 (占位符) -->
+      <div id="u893" class="ax_default placeholder" data-label="短视频封面2">
+        <img id="u893_img" class="img " src="images/交互演示原型（可点击部分按钮）/短视频封面_u10.png"/>
+      </div>
+
+      <!-- 发布者头像 (椭圆形) -->
+      <div id="u894" class="ax_default ellipse" data-label="发布者头像">
+        <img id="u894_img" class="img " src="images/交互演示原型（可点击部分按钮）/发布者头像_u11.png"/>
+      </div>
+
+      <!-- 发布者昵称 (矩形) -->
+      <div id="u895" class="ax_default label" data-label="发布者昵称">
+        <div id="u895_div" class=""></div>
+        <div id="u895_text" class="text ">
+          <p><span>小黄喵</span></p>
+        </div>
+      </div>
+
+      <!-- 视频描述2 (矩形) -->
+      <div id="u896" class="ax_default label" data-label="视频描述2">
+        <div id="u896_div" class=""></div>
+        <div id="u896_text" class="text ">
+          <p><span>今天宝宝说我们要做Cool Cool的仔~ 天气晴朗适合摆拍</span></p>
+        </div>
+      </div>
+
+      <!-- 发布时间 (矩形) -->
+      <div id="u897" class="ax_default label" data-label="发布时间">
+        <div id="u897_div" class=""></div>
+        <div id="u897_text" class="text ">
+          <p><span>50分钟前</span></p>
+        </div>
+      </div>
+
+      <!-- 附近 (矩形) -->
+      <div id="u898" class="ax_default _三级标题" data-label="附近">
+        <div id="u898_div" class=""></div>
+        <div id="u898_text" class="text ">
+          <p><span>附近</span></p>
+        </div>
+      </div>
+
+      <!-- 动态 (矩形) -->
+      <div id="u899" class="ax_default _三级标题" data-label="动态">
+        <div id="u899_div" class=""></div>
+        <div id="u899_text" class="text ">
+          <p><span>动态</span></p>
+        </div>
+      </div>
+
+      <!-- 加好友 (矩形) -->
+      <div id="u900" class="ax_default label" data-label="加好友">
+        <div id="u900_div" class=""></div>
+        <div id="u900_text" class="text ">
+          <p><span>加好友</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u901" class="ax_default icon">
+        <img id="u901_img" class="img " src="images/交互演示原型（可点击部分按钮）/u64.png"/>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u902" class="ax_default icon">
+        <img id="u902_img" class="img " src="images/交互演示原型（可点击部分按钮）/u65.png"/>
+      </div>
+
+      <!-- 好友 (矩形) -->
+      <div id="u903" class="ax_default _三级标题" data-label="好友">
+        <div id="u903_div" class=""></div>
+        <div id="u903_text" class="text ">
+          <p><span>加载状态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u904" class="ax_default" data-left="121" data-top="713" data-width="170" data-height="115">
+
+        <!-- 发布者头像 (椭圆形) -->
+        <div id="u905" class="ax_default ellipse" data-label="发布者头像">
+          <img id="u905_img" class="img " src="images/交互演示原型（可点击部分按钮）/发布者头像_u11.png"/>
+        </div>
+
+        <!-- 发布者昵称 (矩形) -->
+        <div id="u906" class="ax_default label" data-label="发布者昵称">
+          <div id="u906_div" class=""></div>
+          <div id="u906_text" class="text ">
+            <p><span>小黄喵</span></p>
+          </div>
+        </div>
+
+        <!-- 视频描述 (矩形) -->
+        <div id="u907" class="ax_default label" data-label="视频描述">
+          <div id="u907_div" class=""></div>
+          <div id="u907_text" class="text ">
+            <p><span>今天宝宝说我们要做Cool Cool的仔~ 天气晴朗适合摆拍，但是今天阿P说她没...</span></p>
+          </div>
+        </div>
+
+        <!-- 发布时间 (矩形) -->
+        <div id="u908" class="ax_default label" data-label="发布时间">
+          <div id="u908_div" class=""></div>
+          <div id="u908_text" class="text ">
+            <p><span>50分钟前</span></p>
+          </div>
+        </div>
+
+        <!-- 所在地点 (矩形) -->
+        <div id="u909" class="ax_default label" data-label="所在地点">
+          <div id="u909_div" class=""></div>
+          <div id="u909_text" class="text ">
+            <p><span>深业上城</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u910" class="ax_default" data-left="308" data-top="712" data-width="170" data-height="115">
+
+        <!-- 发布者头像 (椭圆形) -->
+        <div id="u911" class="ax_default ellipse" data-label="发布者头像">
+          <img id="u911_img" class="img " src="images/交互演示原型（可点击部分按钮）/发布者头像_u11.png"/>
+        </div>
+
+        <!-- 发布者昵称 (矩形) -->
+        <div id="u912" class="ax_default label" data-label="发布者昵称">
+          <div id="u912_div" class=""></div>
+          <div id="u912_text" class="text ">
+            <p><span>小黄喵</span></p>
+          </div>
+        </div>
+
+        <!-- 视频描述 (矩形) -->
+        <div id="u913" class="ax_default label" data-label="视频描述">
+          <div id="u913_div" class=""></div>
+          <div id="u913_text" class="text ">
+            <p><span>今天宝宝说我们要做Cool Cool的仔~ 天气晴朗适合摆拍，但是今天阿P说她没...</span></p>
+          </div>
+        </div>
+
+        <!-- 发布时间 (矩形) -->
+        <div id="u914" class="ax_default label" data-label="发布时间">
+          <div id="u914_div" class=""></div>
+          <div id="u914_text" class="text ">
+            <p><span>50分钟前</span></p>
+          </div>
+        </div>
+
+        <!-- 所在地点 (矩形) -->
+        <div id="u915" class="ax_default label" data-label="所在地点">
+          <div id="u915_div" class=""></div>
+          <div id="u915_text" class="text ">
+            <p><span>深业上城</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 短视频封面4 (占位符) -->
+      <div id="u916" class="ax_default placeholder" data-label="短视频封面4">
+        <img id="u916_img" class="img " src="images/交互演示原型（可点击部分按钮）/短视频封面4_u3.png"/>
+      </div>
+
+      <!-- 短视频封面3 (占位符) -->
+      <div id="u917" class="ax_default placeholder" data-label="短视频封面3">
+        <img id="u917_img" class="img " src="images/交互演示原型（可点击部分按钮）/短视频封面4_u3.png"/>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u918" class="ax_default" data-left="121" data-top="1010" data-width="170" data-height="115">
+
+        <!-- 发布者头像 (椭圆形) -->
+        <div id="u919" class="ax_default ellipse" data-label="发布者头像">
+          <img id="u919_img" class="img " src="images/交互演示原型（可点击部分按钮）/发布者头像_u11.png"/>
+        </div>
+
+        <!-- 发布者昵称 (矩形) -->
+        <div id="u920" class="ax_default label" data-label="发布者昵称">
+          <div id="u920_div" class=""></div>
+          <div id="u920_text" class="text ">
+            <p><span>小黄喵</span></p>
+          </div>
+        </div>
+
+        <!-- 视频描述 (矩形) -->
+        <div id="u921" class="ax_default label" data-label="视频描述">
+          <div id="u921_div" class=""></div>
+          <div id="u921_text" class="text ">
+            <p><span>今天宝宝说我们要做Cool Cool的仔~ 天气晴朗适合摆拍，但是今天阿P说她没...</span></p>
+          </div>
+        </div>
+
+        <!-- 发布时间 (矩形) -->
+        <div id="u922" class="ax_default label" data-label="发布时间">
+          <div id="u922_div" class=""></div>
+          <div id="u922_text" class="text ">
+            <p><span>50分钟前</span></p>
+          </div>
+        </div>
+
+        <!-- 所在地点 (矩形) -->
+        <div id="u923" class="ax_default label" data-label="所在地点">
+          <div id="u923_div" class=""></div>
+          <div id="u923_text" class="text ">
+            <p><span>深业上城</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u924" class="ax_default" data-left="308" data-top="1009" data-width="170" data-height="115">
+
+        <!-- 发布者头像 (椭圆形) -->
+        <div id="u925" class="ax_default ellipse" data-label="发布者头像">
+          <img id="u925_img" class="img " src="images/交互演示原型（可点击部分按钮）/发布者头像_u11.png"/>
+        </div>
+
+        <!-- 发布者昵称 (矩形) -->
+        <div id="u926" class="ax_default label" data-label="发布者昵称">
+          <div id="u926_div" class=""></div>
+          <div id="u926_text" class="text ">
+            <p><span>小黄喵</span></p>
+          </div>
+        </div>
+
+        <!-- 视频描述 (矩形) -->
+        <div id="u927" class="ax_default label" data-label="视频描述">
+          <div id="u927_div" class=""></div>
+          <div id="u927_text" class="text ">
+            <p><span>今天宝宝说我们要做Cool Cool的仔~ 天气晴朗适合摆拍，但是今天阿P说她没...</span></p>
+          </div>
+        </div>
+
+        <!-- 发布时间 (矩形) -->
+        <div id="u928" class="ax_default label" data-label="发布时间">
+          <div id="u928_div" class=""></div>
+          <div id="u928_text" class="text ">
+            <p><span>50分钟前</span></p>
+          </div>
+        </div>
+
+        <!-- 所在地点 (矩形) -->
+        <div id="u929" class="ax_default label" data-label="所在地点">
+          <div id="u929_div" class=""></div>
+          <div id="u929_text" class="text ">
+            <p><span>深业上城</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 短视频封面4 (占位符) -->
+      <div id="u930" class="ax_default placeholder" data-label="短视频封面4">
+        <img id="u930_img" class="img " src="images/交互演示原型（可点击部分按钮）/短视频封面4_u3.png"/>
+      </div>
+
+      <!-- 短视频封面3 (占位符) -->
+      <div id="u931" class="ax_default placeholder" data-label="短视频封面3">
+        <img id="u931_img" class="img " src="images/交互演示原型（可点击部分按钮）/短视频封面4_u3.png"/>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u932" class="ax_default" data-left="121" data-top="1308" data-width="170" data-height="115">
+
+        <!-- 发布者头像 (椭圆形) -->
+        <div id="u933" class="ax_default ellipse" data-label="发布者头像">
+          <img id="u933_img" class="img " src="images/交互演示原型（可点击部分按钮）/发布者头像_u11.png"/>
+        </div>
+
+        <!-- 发布者昵称 (矩形) -->
+        <div id="u934" class="ax_default label" data-label="发布者昵称">
+          <div id="u934_div" class=""></div>
+          <div id="u934_text" class="text ">
+            <p><span>小黄喵</span></p>
+          </div>
+        </div>
+
+        <!-- 视频描述 (矩形) -->
+        <div id="u935" class="ax_default label" data-label="视频描述">
+          <div id="u935_div" class=""></div>
+          <div id="u935_text" class="text ">
+            <p><span>今天宝宝说我们要做Cool Cool的仔~ 天气晴朗适合摆拍，但是今天阿P说她没...</span></p>
+          </div>
+        </div>
+
+        <!-- 发布时间 (矩形) -->
+        <div id="u936" class="ax_default label" data-label="发布时间">
+          <div id="u936_div" class=""></div>
+          <div id="u936_text" class="text ">
+            <p><span>50分钟前</span></p>
+          </div>
+        </div>
+
+        <!-- 所在地点 (矩形) -->
+        <div id="u937" class="ax_default label" data-label="所在地点">
+          <div id="u937_div" class=""></div>
+          <div id="u937_text" class="text ">
+            <p><span>深业上城</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u938" class="ax_default" data-left="308" data-top="1307" data-width="170" data-height="115">
+
+        <!-- 发布者头像 (椭圆形) -->
+        <div id="u939" class="ax_default ellipse" data-label="发布者头像">
+          <img id="u939_img" class="img " src="images/交互演示原型（可点击部分按钮）/发布者头像_u11.png"/>
+        </div>
+
+        <!-- 发布者昵称 (矩形) -->
+        <div id="u940" class="ax_default label" data-label="发布者昵称">
+          <div id="u940_div" class=""></div>
+          <div id="u940_text" class="text ">
+            <p><span>小黄喵</span></p>
+          </div>
+        </div>
+
+        <!-- 视频描述 (矩形) -->
+        <div id="u941" class="ax_default label" data-label="视频描述">
+          <div id="u941_div" class=""></div>
+          <div id="u941_text" class="text ">
+            <p><span>今天宝宝说我们要做Cool Cool的仔~ 天气晴朗适合摆拍，但是今天阿P说她没...</span></p>
+          </div>
+        </div>
+
+        <!-- 发布时间 (矩形) -->
+        <div id="u942" class="ax_default label" data-label="发布时间">
+          <div id="u942_div" class=""></div>
+          <div id="u942_text" class="text ">
+            <p><span>50分钟前</span></p>
+          </div>
+        </div>
+
+        <!-- 所在地点 (矩形) -->
+        <div id="u943" class="ax_default label" data-label="所在地点">
+          <div id="u943_div" class=""></div>
+          <div id="u943_text" class="text ">
+            <p><span>深业上城</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 短视频封面4 (占位符) -->
+      <div id="u944" class="ax_default placeholder" data-label="短视频封面4">
+        <img id="u944_img" class="img " src="images/交互演示原型（可点击部分按钮）/短视频封面4_u3.png"/>
+      </div>
+
+      <!-- 短视频封面3 (占位符) -->
+      <div id="u945" class="ax_default placeholder" data-label="短视频封面3">
+        <img id="u945_img" class="img " src="images/交互演示原型（可点击部分按钮）/短视频封面4_u3.png"/>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u946" class="ax_default" data-left="121" data-top="1603" data-width="170" data-height="115">
+
+        <!-- 发布者头像 (椭圆形) -->
+        <div id="u947" class="ax_default ellipse" data-label="发布者头像">
+          <img id="u947_img" class="img " src="images/交互演示原型（可点击部分按钮）/发布者头像_u11.png"/>
+        </div>
+
+        <!-- 发布者昵称 (矩形) -->
+        <div id="u948" class="ax_default label" data-label="发布者昵称">
+          <div id="u948_div" class=""></div>
+          <div id="u948_text" class="text ">
+            <p><span>小黄喵</span></p>
+          </div>
+        </div>
+
+        <!-- 视频描述 (矩形) -->
+        <div id="u949" class="ax_default label" data-label="视频描述">
+          <div id="u949_div" class=""></div>
+          <div id="u949_text" class="text ">
+            <p><span>今天宝宝说我们要做Cool Cool的仔~ 天气晴朗适合摆拍，但是今天阿P说她没...</span></p>
+          </div>
+        </div>
+
+        <!-- 发布时间 (矩形) -->
+        <div id="u950" class="ax_default label" data-label="发布时间">
+          <div id="u950_div" class=""></div>
+          <div id="u950_text" class="text ">
+            <p><span>50分钟前</span></p>
+          </div>
+        </div>
+
+        <!-- 所在地点 (矩形) -->
+        <div id="u951" class="ax_default label" data-label="所在地点">
+          <div id="u951_div" class=""></div>
+          <div id="u951_text" class="text ">
+            <p><span>深业上城</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u952" class="ax_default" data-left="308" data-top="1602" data-width="170" data-height="115">
+
+        <!-- 发布者头像 (椭圆形) -->
+        <div id="u953" class="ax_default ellipse" data-label="发布者头像">
+          <img id="u953_img" class="img " src="images/交互演示原型（可点击部分按钮）/发布者头像_u11.png"/>
+        </div>
+
+        <!-- 发布者昵称 (矩形) -->
+        <div id="u954" class="ax_default label" data-label="发布者昵称">
+          <div id="u954_div" class=""></div>
+          <div id="u954_text" class="text ">
+            <p><span>小黄喵</span></p>
+          </div>
+        </div>
+
+        <!-- 视频描述 (矩形) -->
+        <div id="u955" class="ax_default label" data-label="视频描述">
+          <div id="u955_div" class=""></div>
+          <div id="u955_text" class="text ">
+            <p><span>今天宝宝说我们要做Cool Cool的仔~ 天气晴朗适合摆拍，但是今天阿P说她没...</span></p>
+          </div>
+        </div>
+
+        <!-- 发布时间 (矩形) -->
+        <div id="u956" class="ax_default label" data-label="发布时间">
+          <div id="u956_div" class=""></div>
+          <div id="u956_text" class="text ">
+            <p><span>50分钟前</span></p>
+          </div>
+        </div>
+
+        <!-- 所在地点 (矩形) -->
+        <div id="u957" class="ax_default label" data-label="所在地点">
+          <div id="u957_div" class=""></div>
+          <div id="u957_text" class="text ">
+            <p><span>深业上城</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 好友 (矩形) -->
+      <div id="u958" class="ax_default _三级标题" data-label="好友">
+        <div id="u958_div" class=""></div>
+        <div id="u958_text" class="text ">
+          <p><span>上拉加载，采用分段加载列表数量，10条为上限</span></p>
+        </div>
+      </div>
+
+      <!-- 好友 (矩形) -->
+      <div id="u959" class="ax_default _三级标题" data-label="好友">
+        <div id="u959_div" class=""></div>
+        <div id="u959_text" class="text ">
+          <p><span>加载状态如下：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u960" class="ax_default label">
+        <div id="u960_div" class=""></div>
+        <div id="u960_text" class="text ">
+          <p><span>数据加载中：增加“活动旋转”图标</span></p><p><span>数据加载失败：点击可重新加载</span></p><p><span>没有更多数据：点击无操作</span></p>
+        </div>
+      </div>
+
+      <!-- 状态栏 (矩形) -->
+      <div id="u961" class="ax_default box_1" data-label="状态栏">
+        <div id="u961_div" class=""></div>
+      </div>
+
+      <!-- 顶部导航栏 (矩形) -->
+      <div id="u962" class="ax_default box_1" data-label="顶部导航栏">
+        <div id="u962_div" class=""></div>
+      </div>
+
+      <!-- 附近 (矩形) -->
+      <div id="u963" class="ax_default _三级标题" data-label="附近">
+        <div id="u963_div" class=""></div>
+        <div id="u963_text" class="text ">
+          <p><span>附近</span></p>
+        </div>
+      </div>
+
+      <!-- 动态 (矩形) -->
+      <div id="u964" class="ax_default _三级标题" data-label="动态">
+        <div id="u964_div" class=""></div>
+        <div id="u964_text" class="text ">
+          <p><span>动态</span></p>
+        </div>
+      </div>
+
+      <!-- 加好友 (矩形) -->
+      <div id="u965" class="ax_default label" data-label="加好友">
+        <div id="u965_div" class=""></div>
+        <div id="u965_text" class="text ">
+          <p><span>加好友</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u966" class="ax_default icon">
+        <img id="u966_img" class="img " src="images/交互演示原型（可点击部分按钮）/u64.png"/>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u967" class="ax_default icon">
+        <img id="u967_img" class="img " src="images/交互演示原型（可点击部分按钮）/u65.png"/>
+      </div>
+
+      <!-- 动态 (矩形) -->
+      <div id="u968" class="ax_default _三级标题" data-label="动态">
+        <div id="u968_div" class=""></div>
+        <div id="u968_text" class="text ">
+          <p><span>异步加载</span></p>
+        </div>
+      </div>
+
+      <!-- 动态 (矩形) -->
+      <div id="u969" class="ax_default _三级标题" data-label="动态">
+        <div id="u969_div" class=""></div>
+        <div id="u969_text" class="text ">
+          <p><span>先加载框架，再加载数据</span></p>
+        </div>
+      </div>
+
+      <!-- 底部标签栏 (矩形) -->
+      <div id="u970" class="ax_default box_1" data-label="底部标签栏">
+        <div id="u970_div" class=""></div>
+      </div>
+
+      <!-- 好友 (矩形) -->
+      <div id="u971" class="ax_default _三级标题" data-label="好友">
+        <div id="u971_div" class=""></div>
+        <div id="u971_text" class="text ">
+          <p><span>好友</span></p>
+        </div>
+      </div>
+
+      <!-- 发现 (矩形) -->
+      <div id="u972" class="ax_default _三级标题" data-label="发现">
+        <div id="u972_div" class=""></div>
+        <div id="u972_text" class="text ">
+          <p><span>发现</span></p>
+        </div>
+      </div>
+
+      <!-- 我的 (矩形) -->
+      <div id="u973" class="ax_default _三级标题" data-label="我的">
+        <div id="u973_div" class=""></div>
+        <div id="u973_text" class="text ">
+          <p><span>我的</span></p>
+        </div>
+      </div>
+
+      <!-- 消息 (矩形) -->
+      <div id="u974" class="ax_default _三级标题" data-label="消息">
+        <div id="u974_div" class=""></div>
+        <div id="u974_text" class="text ">
+          <p><span>消息</span></p>
+        </div>
+      </div>
+
+      <!-- 拍摄新视频 (矩形) -->
+      <div id="u975" class="ax_default _三级标题" data-label="拍摄新视频">
+        <div id="u975_div" class=""></div>
+        <div id="u975_text" class="text ">
+          <p><span>+</span></p>
+        </div>
+      </div>
+
+      <!-- iPhone (矩形) -->
+      <div id="u976" class="ax_default box_1" data-label="iPhone">
+        <div id="u976_div" class=""></div>
+      </div>
+
+      <!-- 短视频区 (占位符) -->
+      <div id="u977" class="ax_default placeholder" data-label="短视频区">
+        <img id="u977_img" class="img " src="images/交互演示原型（可点击部分按钮）/短视频区_u197.png"/>
+      </div>
+
+      <!-- 返回 (矩形) -->
+      <div id="u978" class="ax_default label" data-label="返回">
+        <div id="u978_div" class=""></div>
+        <div id="u978_text" class="text ">
+          <p><span>返回</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u979" class="ax_default label">
+        <div id="u979_div" class=""></div>
+        <div id="u979_text" class="text ">
+          <p><span>短视频区</span></p>
+        </div>
+      </div>
+
+      <!-- 视频描述 (矩形) -->
+      <div id="u980" class="ax_default label" data-label="视频描述">
+        <div id="u980_div" class=""></div>
+        <div id="u980_text" class="text ">
+          <p><span>今天宝宝说我们要做Cool Cool的仔~ 天气晴朗适合摆拍，但是今天阿P说她没时[难过]，所以只有我们几个过来这里了</span></p>
+        </div>
+      </div>
+
+      <!-- 点赞按钮3 (组 合) -->
+      <div id="u981" class="ax_default" data-label="点赞按钮3" data-left="936" data-top="1576" data-width="375" data-height="48">
+
+        <!-- 评论框 (矩形) -->
+        <div id="u982" class="ax_default box_1" data-label="评论框">
+          <div id="u982_div" class=""></div>
+        </div>
+
+        <!-- 点赞按钮 (占位符) -->
+        <div id="u983" class="ax_default placeholder" data-label="点赞按钮">
+          <img id="u983_img" class="img " src="images/交互演示原型（可点击部分按钮）/点赞按钮_u325.png"/>
+          <div id="u983_text" class="text ">
+            <p><span>赞122</span></p>
+          </div>
+        </div>
+
+        <!-- 我要评论 (矩形) -->
+        <div id="u984" class="ax_default label" data-label="我要评论">
+          <div id="u984_div" class=""></div>
+          <div id="u984_text" class="text ">
+            <p><span>我要评论...</span></p>
+          </div>
+        </div>
+
+        <!-- @我的好友 (矩形) -->
+        <div id="u985" class="ax_default label" data-label="@我的好友">
+          <div id="u985_div" class=""></div>
+          <div id="u985_text" class="text ">
+            <p><span>@我的好友</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 发布者头像 (椭圆形) -->
+      <div id="u986" class="ax_default ellipse" data-label="发布者头像">
+        <img id="u986_img" class="img " src="images/交互演示原型（可点击部分按钮）/发布者头像_u201.png"/>
+      </div>
+
+      <!-- 发布者昵称 (矩形) -->
+      <div id="u987" class="ax_default label" data-label="发布者昵称">
+        <div id="u987_div" class=""></div>
+        <div id="u987_text" class="text ">
+          <p><span>大黄喵</span></p>
+        </div>
+      </div>
+
+      <!-- 回复1 (矩形) -->
+      <div id="u988" class="ax_default label" data-label="回复1">
+        <div id="u988_div" class=""></div>
+        <div id="u988_text" class="text ">
+          <p><span>好可爱啊，我也好想和你们一起去！！！</span></p>
+        </div>
+      </div>
+
+      <!-- 发布者头像 (椭圆形) -->
+      <div id="u989" class="ax_default ellipse" data-label="发布者头像">
+        <img id="u989_img" class="img " src="images/交互演示原型（可点击部分按钮）/发布者头像_u201.png"/>
+      </div>
+
+      <!-- 发布者昵称 (矩形) -->
+      <div id="u990" class="ax_default label" data-label="发布者昵称">
+        <div id="u990_div" class=""></div>
+        <div id="u990_text" class="text ">
+          <p><span>阿P</span></p>
+        </div>
+      </div>
+
+      <!-- 评论分割线1 (水平线) -->
+      <div id="u991" class="ax_default line" data-label="评论分割线1">
+        <img id="u991_img" class="img " src="images/交互演示原型（可点击部分按钮）/评论分割线1_u230.png"/>
+      </div>
+
+      <!-- 评论分割线2 (水平线) -->
+      <div id="u992" class="ax_default line" data-label="评论分割线2">
+        <img id="u992_img" class="img " src="images/交互演示原型（可点击部分按钮）/评论分割线1_u230.png"/>
+      </div>
+
+      <!-- 评论回复区域2 (矩形) -->
+      <div id="u993" class="ax_default box_2" data-label="评论回复区域2">
+        <div id="u993_div" class=""></div>
+      </div>
+
+      <!-- 回复2 (矩形) -->
+      <div id="u994" class="ax_default label" data-label="回复2">
+        <div id="u994_div" class=""></div>
+        <div id="u994_text" class="text ">
+          <p><span>？？？怪我咯</span></p>
+        </div>
+      </div>
+
+      <!-- 评论回复块1 (组 合) -->
+      <div id="u995" class="ax_default" data-label="评论回复块1" data-left="987" data-top="1407" data-width="323" data-height="65">
+
+        <!-- 评论回复区域1 (矩形) -->
+        <div id="u996" class="ax_default box_2" data-label="评论回复区域1">
+          <div id="u996_div" class=""></div>
+        </div>
+
+        <!-- 回复 (矩形) -->
+        <div id="u997" class="ax_default label" data-label="回复">
+          <div id="u997_div" class=""></div>
+          <div id="u997_text" class="text ">
+            <p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">小黄喵</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&nbsp; 回复&nbsp; </span><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">阿P</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"> </span></p>
+          </div>
+        </div>
+
+        <!-- 回复3 (矩形) -->
+        <div id="u998" class="ax_default label" data-label="回复3">
+          <div id="u998_div" class=""></div>
+          <div id="u998_text" class="text ">
+            <p><span>下次你一定要过来啊哈哈哈哈</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 评论过去多久时间 (矩形) -->
+      <div id="u999" class="ax_default label" data-label="评论过去多久时间">
+        <div id="u999_div" class=""></div>
+        <div id="u999_text" class="text ">
+          <p><span>26分钟前</span></p>
+        </div>
+      </div>
+
+      <!-- 评论过去多久时间 (矩形) -->
+      <div id="u1000" class="ax_default label" data-label="评论过去多久时间">
+        <div id="u1000_div" class=""></div>
+        <div id="u1000_text" class="text ">
+          <p><span>35分钟前</span></p>
+        </div>
+      </div>
+
+      <!-- 视频描述 (矩形) -->
+      <div id="u1001" class="ax_default label" data-label="视频描述">
+        <div id="u1001_div" class=""></div>
+        <div id="u1001_text" class="text ">
+          <p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">阿P</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&nbsp; 回复&nbsp; </span><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">小黄喵</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"> </span></p>
+        </div>
+      </div>
+
+      <!-- 回复4 (矩形) -->
+      <div id="u1002" class="ax_default label" data-label="回复4">
+        <div id="u1002_div" class=""></div>
+        <div id="u1002_text" class="text ">
+          <p><span>好好好。。。</span></p>
+        </div>
+      </div>
+
+      <!-- 点赞按钮1 (占位符) -->
+      <div id="u1003" class="ax_default placeholder" data-label="点赞按钮1">
+        <img id="u1003_img" class="img " src="images/交互演示原型（可点击部分按钮）/点赞按钮1_u251.png"/>
+        <div id="u1003_text" class="text ">
+          <p><span>赞10</span></p>
+        </div>
+      </div>
+
+      <!-- 点赞按钮2 (占位符) -->
+      <div id="u1004" class="ax_default placeholder" data-label="点赞按钮2">
+        <img id="u1004_img" class="img " src="images/交互演示原型（可点击部分按钮）/点赞按钮2_u233.png"/>
+        <div id="u1004_text" class="text ">
+          <p><span>赞100</span></p>
+        </div>
+      </div>
+
+      <!-- 发布者头像 (椭圆形) -->
+      <div id="u1005" class="ax_default ellipse" data-label="发布者头像">
+        <img id="u1005_img" class="img " src="images/交互演示原型（可点击部分按钮）/发布者头像_u201.png"/>
+      </div>
+
+      <!-- 发布者昵称 (矩形) -->
+      <div id="u1006" class="ax_default label" data-label="发布者昵称">
+        <div id="u1006_div" class=""></div>
+        <div id="u1006_text" class="text ">
+          <p><span>小黄喵</span></p>
+        </div>
+      </div>
+
+      <!-- 评论过去多久时间 (矩形) -->
+      <div id="u1007" class="ax_default label" data-label="评论过去多久时间">
+        <div id="u1007_div" class=""></div>
+        <div id="u1007_text" class="text ">
+          <p><span>2小时前</span></p>
+        </div>
+      </div>
+
+      <!-- 分享 (矩形) -->
+      <div id="u1008" class="ax_default label" data-label="分享">
+        <div id="u1008_div" class=""></div>
+        <div id="u1008_text" class="text ">
+          <p><span>分享</span></p>
+        </div>
+      </div>
+
+      <!-- 发布者选取的地点 (矩形) -->
+      <div id="u1009" class="ax_default label" data-label="发布者选取的地点">
+        <div id="u1009_div" class=""></div>
+        <div id="u1009_text" class="text ">
+          <p><span>深业上城</span></p>
+        </div>
+      </div>
+
+      <!-- 设置 (占位符) -->
+      <div id="u1010" class="ax_default placeholder" data-label="设置">
+        <img id="u1010_img" class="img " src="images/网络异常/设置_u867.png"/>
+        <div id="u1010_text" class="text ">
+          <p><span>设置</span></p>
+        </div>
+      </div>
+
+      <!-- 动态 (矩形) -->
+      <div id="u1011" class="ax_default _三级标题" data-label="动态">
+        <div id="u1011_div" class=""></div>
+        <div id="u1011_text" class="text ">
+          <p><span>用户在进行“点赞”、“评论、“回复”时异步处理</span></p><p><span>优先前端显示结果，再读取数据</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1012" class="ax_default _连接线">
+        <img id="u1012_seg0" class="img " src="images/加载机制/u1012_seg0.png" alt="u1012_seg0"/>
+        <img id="u1012_seg1" class="img " src="images/加载机制/u1012_seg1.png" alt="u1012_seg1"/>
+        <div id="u1012_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1013" class="ax_default _连接线">
+        <img id="u1013_seg0" class="img " src="images/加载机制/u1013_seg0.png" alt="u1013_seg0"/>
+        <img id="u1013_seg1" class="img " src="images/加载机制/u1013_seg1.png" alt="u1013_seg1"/>
+        <img id="u1013_seg2" class="img " src="images/加载机制/u1013_seg2.png" alt="u1013_seg2"/>
+        <img id="u1013_seg3" class="img " src="images/加载机制/u1012_seg1.png" alt="u1013_seg3"/>
+        <div id="u1013_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (SVG) -->
+      <div id="u1014" class="ax_default _图片2">
+        <img id="u1014_img" class="img " src="images/交互演示原型（可点击部分按钮）/u48.svg"/>
+      </div>
+
+      <!-- Unnamed (SVG) -->
+      <div id="u1015" class="ax_default _图片2">
+        <img id="u1015_img" class="img " src="images/交互演示原型（可点击部分按钮）/u452.svg"/>
+      </div>
+
+      <!-- Unnamed (SVG) -->
+      <div id="u1016" class="ax_default _图片2">
+        <img id="u1016_img" class="img " src="images/交互演示原型（可点击部分按钮）/u48.svg"/>
+      </div>
+
+      <!-- 动态 (矩形) -->
+      <div id="u1017" class="ax_default _三级标题" data-label="动态">
+        <div id="u1017_div" class=""></div>
+        <div id="u1017_text" class="text ">
+          <p><span>短视频模块单独加载</span></p><p><span>加载形式为进度条</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1018" class="ax_default _连接线">
+        <img id="u1018_seg0" class="img " src="images/加载机制/u1018_seg0.png" alt="u1018_seg0"/>
+        <img id="u1018_seg1" class="img " src="images/加载机制/u1012_seg1.png" alt="u1018_seg1"/>
+        <div id="u1018_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- 动态 (矩形) -->
+      <div id="u1019" class="ax_default _三级标题" data-label="动态">
+        <div id="u1019_div" class=""></div>
+        <div id="u1019_text" class="text ">
+          <p><span>可进行下拉刷新加载</span></p><p><span>加载形式为“活动旋转”</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1020" class="ax_default _连接线">
+        <img id="u1020_seg0" class="img " src="images/加载机制/u1020_seg0.png" alt="u1020_seg0"/>
+        <img id="u1020_seg1" class="img " src="images/加载机制/u1020_seg1.png" alt="u1020_seg1"/>
+        <div id="u1020_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- 好友 (矩形) -->
+      <div id="u1021" class="ax_default _三级标题" data-label="好友">
+        <div id="u1021_div" class=""></div>
+        <div id="u1021_text" class="text ">
+          <p><span>加载状态如下：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1022" class="ax_default label">
+        <div id="u1022_div" class=""></div>
+        <div id="u1022_text" class="text ">
+          <p><span>数据加载中：增加“活动旋转”</span></p><p><span>数据加载失败：弹出消息提示框“数据加载失败”</span></p><p><span>数据加载成功：无显示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1023" class="ax_default _连接线">
+        <img id="u1023_seg0" class="img " src="images/加载机制/u1023_seg0.png" alt="u1023_seg0"/>
+        <img id="u1023_seg1" class="img " src="images/加载机制/u1023_seg1.png" alt="u1023_seg1"/>
+        <img id="u1023_seg2" class="img " src="images/加载机制/u1023_seg2.png" alt="u1023_seg2"/>
+        <div id="u1023_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
